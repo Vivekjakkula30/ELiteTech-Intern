@@ -1,16 +1,94 @@
-# React + Vite
+# MERN Real-Time Chat App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real-time chat application built using the MERN Stack and Socket.IO with live messaging, online users, typing indicators, emoji support, reply system, and persistent chat history.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Real-time messaging with Socket.IO
+* Join chat with username
+* Online users tracking
+* Typing indicator
+* Emoji picker support
+* Reply to specific messages
+* Delete own messages
+* Auto-scroll to latest message
+* Modern glassmorphism UI
+* Persistent chat history with MongoDB
+* Enter key support for joining and sending messages
 
-## React Compiler
+## Tech Stack 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* CSS3
+* Socket.IO Client
+* Emoji Picker React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+* Socket.IO
+* MongoDB
+* Mongoose
+
+## Project Structure 📂
+
+Task-1-chat-app/
+├── client/
+├── server/
+├── README.md
+
+## Installation ⚙️
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Vivekjakkula30/ELiteTech-Intern.git
+```
+
+### Frontend Setup
+
+```bash
+cd Task-1-chat-app/client
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd Task-1-chat-app/server
+npm install
+node server.js
+```
+
+## Environment Variables 🔐
+
+Create `.env` inside server:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+## Screenshots 📸
+
+(Add screenshots here)
+
+## Future Improvements 🚀
+
+* Private chat rooms
+* Group chats
+* Message seen status
+* File sharing
+* Voice messages
+* Authentication system
+
+## Author 👨‍💻
+
+**Vivek Jakkula**
+
+GitHub: https://github.com/Vivekjakkula30
