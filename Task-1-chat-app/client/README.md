@@ -65,18 +65,15 @@ npm install
 node server.js
 ```
 
-## Environment Variables 🔐
 
-Create `.env` inside server:
+MongoDB Setup
 
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
+Make sure MongoDB is running locally on:
 
-## Screenshots 📸
+mongodb://127.0.0.1:27017/chatapp
 
-(Add screenshots here)
+
+
 
 ## Future Improvements 🚀
 
